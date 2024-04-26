@@ -18,7 +18,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.36"
-        tools:layout_editor_absoluteX="16dp" />
+        tools:layout_editor_absoluteX="16dp"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -97,6 +98,7 @@
         android:background="@color/boton"
         android:shadowRadius="12"
         android:text="INICIAR SESION"
+        android:textColor="#795548"
         android:textSize="10sp"
         app:cornerRadius="23sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -113,6 +115,7 @@
         android:layout_height="55dp"
         android:background="@color/boton"
         android:text="REGISTRARSE"
+        android:textColor="#795548"
         app:circularflow_defaultRadius="23dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
